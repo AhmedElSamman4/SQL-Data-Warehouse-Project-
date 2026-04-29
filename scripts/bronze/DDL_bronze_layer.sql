@@ -1,10 +1,10 @@
-use FDWH
+use Datawarehouse
 /*
 ===============================================================
 ==>DDl script: create tables bronze 
 	==>purpose:
-		-this script creates tables of bronze layer , 
-		-dropping existing tables if they already exist 
+		=* this script creates tables of bronze layer , 
+		=* dropping existing tables if they already exist 
 ===============================================================
 */
 if object_id('bronze.crm_cust_info','U') is not null 
